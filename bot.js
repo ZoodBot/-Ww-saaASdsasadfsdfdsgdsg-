@@ -204,7 +204,7 @@ client.on('message', message=> {//Toxic Codes
     if (message.author.bot) return;//Toxic Codes
     if (message.isMentioned(client.user))//Toxic Codes
     {//Toxic Codes
-    message.reply(" كس امك ?");//Toxic Codes
+    message.reply("?");//Toxic Codes
     }//Toxic Codes
 }); //Toxic Codes
 
