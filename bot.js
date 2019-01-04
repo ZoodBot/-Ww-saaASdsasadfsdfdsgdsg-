@@ -126,7 +126,7 @@ client.on('message', async message => {
     let Reason = message.content.split(" ").slice(3).join(" ");
     let messageArray = message.content.split(" ");
     let time = messageArray[2];
-    if(message.content.startsWith(prefix + "ban")) {
+    if(message.content.startsWith(prefix + "tempban")) {
       if (!message.channel.guild) return;
        if(!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) return message.channel.send("**ماعندك برمشن :X:**");
        if(!User) message.channel.send("Mention Someone");
