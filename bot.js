@@ -240,6 +240,9 @@ client.on("message", message => {
       }}).then(msg => {msg.delete(3000)});
                           }
 });
+
+
+
 client.on("message", message => {
 	var prefix = "+";
             var args = message.content.substring(prefix.length).split(" ");
