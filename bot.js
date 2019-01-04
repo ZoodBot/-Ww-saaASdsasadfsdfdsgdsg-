@@ -9,7 +9,7 @@ var dat = JSON.parse("{}");
 client.on('ready',  () => {
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~Team we bot~~~~~~~~~~~');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~Team zood bot~~~~~~~~~~~');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  Team #Plus Bot " ] servers! [ " ${client.guilds.size} " ] Users! [ " ${client.users.size} " ]`); 
@@ -25,7 +25,7 @@ client.on('message', msg => {
 
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`inv | Welcome`,"http://twitch.tv/xkilleryt")
+    client.user.setGame(`Coming Soon`,"http://twitch.tv/xkilleryt")
     });
 
 
